@@ -36,15 +36,15 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-#データベース反映
+# データベース反映
 ```
 npx prisma migrate dev --name init
 ```
 
-#prisma型生成
+# prisma型生成
 ```
 npx prisma generate
 ```
 
-#APIエンドポイント
+# APIエンドポイント
 /api/todo
